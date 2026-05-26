@@ -52,17 +52,38 @@
             color: #708090;
             margin-bottom: 15px;
         }
+        .package-item {
+            margin-bottom: 25px;
+        }
+        .package-title {
+            font-weight: bold;
+            font-size: 1.15rem;
+            display: block;
+            margin-bottom: 2px;
+        }
+        .package-subtitle {
+            font-style: italic;
+            color: #555;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .package-desc {
+            color: #444;
+            display: block;
+            margin-bottom: 5px;
+        }
         ul {
             padding-left: 20px;
+            margin-top: 5px;
         }
         li {
-            margin-bottom: 8px;
+            margin-bottom: 4px;
         }
         .bundle-box {
             background-color: #f4f6f8;
             border-left: 4px solid #708090;
             padding: 15px;
-            margin-top: 20px;
+            margin-top: 30px;
             font-weight: bold;
         }
         .center-btn {
@@ -95,33 +116,62 @@
     <div class="pricing-section">
         <h2>Handyman & Property Services</h2>
         <div class="price-tag">$75.00 / Hour</div>
-        <p><strong>Please Note:</strong> A 2-hour minimum ($150.00) applies to all initial service calls to cover local travel, setup, and logistics. Materials are billed separately at cost plus a 15% sourcing markup.</p>
+        <p><strong>Please Note:</strong> A 2-hour minimum applies to all service calls. Materials are billed separately at cost plus a 15% sourcing markup.</p>
     </div>
 
     <!-- Photography -->
     <div class="pricing-section">
         <h2>Real Estate Photography Packages</h2>
-        <p>Flat-rate packages designed to make marketing expenses completely transparent for realtors and sellers.</p>
+        <p style="margin-bottom: 25px;">Flat-rate packages designed to make marketing expenses completely transparent for realtors and sellers.</p>
         
-        <ul>
-            <li><strong>Essential Listing Package ($200.00):</strong> Ideal for smaller homes or condos. Includes 15–20 high-resolution interior/exterior photos.</li>
-            <li><strong>Standard Home Package ($300.00):</strong> Ideal for average 2–3 bedroom family homes. Includes 25–30 high-resolution photos plus basic drone/aerial shots.</li>
-            <li><strong>Premium Estate Package ($500.00):</strong> Ideal for large properties or luxury listings. Includes 40+ high-resolution photos, full drone footage, and a premium twilight/sunset exterior showcase.</li>
-        </ul>
+        <!-- Basic -->
+        <div class="package-item">
+            <span class="package-title">Basic Shoot – $295</span>
+            <span class="package-subtitle">Exterior-Focused Listings and Vacant Land</span>
+            <span class="package-desc">Ideal for land listings, exterior-focused properties, or quick marketing coverage.</span>
+            <ul>
+                <li>Up to 15 professionally edited images</li>
+                <li>Exterior property photography</li>
+                <li>Aerial/drone photography highlighting property layout and surroundings</li>
+            </ul>
+        </div>
+
+        <!-- Standard -->
+        <div class="package-item">
+            <span class="package-title">Standard Shoot – $395</span>
+            <span class="package-subtitle">Full Coverage for Residential Listings</span>
+            <span class="package-desc">A balanced package designed for most residential properties.</span>
+            <ul>
+                <li>Up to 30 professionally edited images</li>
+                <li>Interior and exterior photography</li>
+                <li>Aerial/drone photography showcasing the property and surrounding landscape</li>
+            </ul>
+        </div>
+
+        <!-- Premium -->
+        <div class="package-item">
+            <span class="package-title">Premium Shoot – $595</span>
+            <span class="package-subtitle">Expanded Coverage for High-End Listings</span>
+            <span class="package-desc">Ideal for larger homes and listings requiring more detailed visual coverage.</span>
+            <ul>
+                <li>Up to 50 professionally edited images capturing interiors and exteriors</li>
+                <li>Comprehensive aerial/drone photography</li>
+                <li>Community surroundings and nearby amenities photographed when applicable</li>
+                <li>Twilight photography included when scheduled during sunset or blue hour</li>
+            </ul>
+        </div>
 
         <div class="bundle-box">
-            🔄 The Cross-Service Bundle: Save 15% off the Handyman Hourly Rate ($63.75/hr instead of $75/hr) when booked alongside any Real Estate Photography Package!
+            The Cross-Service Bundle: Save 15% off the Handyman Hourly Rate when booked alongside any Real Estate Photography Package!
         </div>
     </div>
 
     <!-- Organization -->
     <div class="pricing-section">
         <h2>Professional Cleaning & Organization</h2>
-        <p>Structured into dedicated time blocks so you can watch your space transform without stressing over an hourly clock.</p>
-        <ul>
-            <li><strong>Half-Day Sprint ($225.00):</strong> A focused 3-hour session perfect for pantries, walk-in closets, or small laundry rooms.</li>
-            <li><strong>Full-Day Transformation ($450.00):</strong> A complete 6-hour overhaul ideal for messy garages, kitchens, or full unpacking support post-move.</li>
-        </ul>
+        <p>Professional organization help for garages, attics, closets, barns etc. Need help unpacking after a move...we got you.</p>
+        <div class="price-tag">$75.00 / Hour</div>
+        <p><strong>Please Note:</strong> A 2-hour minimum applies to all service calls.</p>
     </div>
 
     <div class="center-btn">
@@ -129,3 +179,4 @@
     </div>
 
 </body></html>
+
